@@ -5,9 +5,9 @@
 }
 
 h1 {
-    background-color: antiquewhite;
-    text-align: center;
-    font-size: 48px;
+    background: #90a4ae;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 2rem;
 }
 
 img {
