@@ -1,23 +1,87 @@
 * {
-    background-color: white;
+    box-sizing: border-box;
+    background-color: lightgray;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
 
+.homepage-body {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 0px;
+    background-color: white;
+
+    border: 1px solid black;
+    
+}
+
+.homepage-link {
+    background-color: white;
+}
+
+.section {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-edge {
+    margin-left: 0px;
+}
+
+.right-edge {
+    margin-right: 0px;
+}
+
+
 h1 {
-    background: #90a4ae;
+    background: tan;
     margin: -1rem -1rem 1rem -1rem;
     padding: 2rem;
 }
 
-img {
+.img {
     display: block;
     margin: 1rem;
     width: 300px;
     height: auto;
 }
 
-#homepage {
+.homepage-img {
+    display: block;
+    margin: 0 auto;
+    background: white;
+}
+
+
+/* fried rirce */
+.fr {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 200px;
+}
+
+/* broccoli pork */
+.bp {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: 200px;
+}
+
+/* spaghetti meatball */
+.sm {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 175px;
+}
+
+#back-to-homepage {
     color: blue;
 }
 
